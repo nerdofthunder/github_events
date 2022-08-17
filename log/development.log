@@ -1,0 +1,987 @@
+Started GET "/" for ::1 at 2022-08-17 09:36:19 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/pmcdermott/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pmcdermott/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.2ms | Allocations: 655)
+Completed 200 OK in 22ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 4851)
+
+
+Started GET "/" for ::1 at 2022-08-17 09:36:51 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 356)
+  Rendered layout layouts/application.html.erb (Duration: 323.9ms | Allocations: 91377)
+Completed 200 OK in 334ms (Views: 326.4ms | ActiveRecord: 0.0ms | Allocations: 94785)
+
+
+Started GET "/" for ::1 at 2022-08-17 09:39:34 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1236)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3818)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 4715)
+
+
+Started GET "/" for ::1 at 2022-08-17 10:23:49 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 32.4ms | Allocations: 10292)
+  Rendered layout layouts/application.html.erb (Duration: 37.1ms | Allocations: 12920)
+Completed 200 OK in 44ms (Views: 40.8ms | Allocations: 13774)
+
+
+Started GET "/" for ::1 at 2022-08-17 10:25:41 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 3696)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 6274)
+Completed 200 OK in 13ms (Views: 11.8ms | Allocations: 7158)
+
+
+Started POST "/repository_events/index" for ::1 at 2022-08-17 10:25:50 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/repository_events/index"):
+  
+Started GET "/" for ::1 at 2022-08-17 10:25:50 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 3362)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 5662)
+Completed 200 OK in 7ms (Views: 6.9ms | Allocations: 5966)
+
+
+Started GET "/" for ::1 at 2022-08-17 10:33:31 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 3721)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 17451)
+Completed 200 OK in 9888ms (Views: 17.5ms | Allocations: 30157)
+
+
+Started POST "/repository_events/index" for ::1 at 2022-08-17 10:33:47 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/repository_events/index"):
+  
+Started GET "/" for ::1 at 2022-08-17 10:33:47 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 3167)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 5371)
+Completed 200 OK in 155571ms (Views: 9.2ms | Allocations: 43973)
+
+
+Started GET "/" for ::1 at 2022-08-17 10:41:07 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 3538)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 6114)
+Completed 200 OK in 5238ms (Views: 10.8ms | Allocations: 12957)
+
+
+Started POST "/search" for ::1 at 2022-08-17 10:41:18 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/search"):
+  
+Started GET "/" for ::1 at 2022-08-17 10:41:18 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 3126)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 5330)
+Completed 200 OK in 39216ms (Views: 10.8ms | Allocations: 13641)
+
+
+Started GET "/" for ::1 at 2022-08-17 10:42:03 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 3119)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 5318)
+Completed 200 OK in 2020ms (Views: 7.9ms | Allocations: 11594)
+
+
+Started POST "/search" for ::1 at 2022-08-17 10:42:09 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/search"):
+  
+Started GET "/" for ::1 at 2022-08-17 10:42:09 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 3105)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 5310)
+Completed 200 OK in 107327ms (Views: 5.2ms | Allocations: 44255)
+
+
+Started GET "/" for ::1 at 2022-08-17 10:44:34 -0400
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1795)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1908)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 5246)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with url: "/search", method :get do |form|%>
+  <%= form.label :owner, "Owner"%>
+  <%= form.text_field :owner%>
+  <%= form.label :repository, "Repository"%>
+  <%= form.text_field :repository%>
+  <%= form.label :event_type, "Event Type"%>
+  <%= form.text_field :event_type%>
+  <%= form.submit "Get Events"%>
+<%end%>
+
+):
+1:    <%= form_with url: "/search", method :get do |form|%>
+2:      <%= form.label :owner, "Owner"%>
+3:      <%= form.text_field :owner%>
+4:      <%= form.label :repository, "Repository"%>
+5:      <%= form.text_field :repository%>
+6:      <%= form.label :event_type, "Event Type"%>
+7:      <%= form.text_field :event_type%>
+8:      <%= form.submit "Get Events"%>
+9:    <%end%>
+  
+app/views/repository_events/index.html.erb:1: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/repository_events/index.html.erb:11: syntax error, unexpected `end', expecting end-of-input
+app/views/repository_events/index.html.erb:1: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/repository_events/index.html.erb:11: syntax error, unexpected `end', expecting end-of-input
+app/views/repository_events/index.html.erb:1: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/repository_events/index.html.erb:11: syntax error, unexpected `end', expecting end-of-input
+app/views/repository_events/index.html.erb:1: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/repository_events/index.html.erb:11: syntax error, unexpected `end', expecting end-of-input
+app/views/repository_events/index.html.erb:1: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/repository_events/index.html.erb:11: syntax error, unexpected `end', expecting end-of-input
+app/views/repository_events/index.html.erb:1: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/repository_events/index.html.erb:11: syntax error, unexpected `end', expecting end-of-input
+Started GET "/" for ::1 at 2022-08-17 10:45:00 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 11540)
+  Rendered layout layouts/application.html.erb (Duration: 86.2ms | Allocations: 46669)
+Completed 200 OK in 88ms (Views: 87.9ms | ActiveRecord: 0.0ms | Allocations: 47574)
+
+
+Started GET "/search?owner=asdf&repository=asdf&event_type=asdf&commit=Get+Events" for ::1 at 2022-08-17 10:45:11 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+Started GET "/" for ::1 at 2022-08-17 10:45:11 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2941)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 16932)
+Completed 200 OK in 31857ms (Views: 19.9ms | Allocations: 39319)
+
+
+Started GET "/" for ::1 at 2022-08-17 10:46:35 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 3917)
+  Rendered layout layouts/application.html.erb (Duration: 57.2ms | Allocations: 39207)
+Completed 200 OK in 64ms (Views: 59.4ms | ActiveRecord: 0.0ms | Allocations: 42605)
+
+
+Started GET "/search?owner=asdf&repository=fdsaf&event_type=asdf&commit=Get+Events" for ::1 at 2022-08-17 10:46:40 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+Started GET "/" for ::1 at 2022-08-17 10:46:41 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 2971)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 5507)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 5818)
+
+
+Started GET "/" for ::1 at 2022-08-17 10:47:02 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 3287)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 6074)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 6911)
+
+
+Started GET "/repository_events/search?owner=&repository=&event_type=&commit=Get+Events" for ::1 at 2022-08-17 10:47:04 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/repository_events/search"):
+  
+Started GET "/" for ::1 at 2022-08-17 10:47:04 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 2935)
+  Rendered layout layouts/application.html.erb (Duration: 38.7ms | Allocations: 5295)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms | Allocations: 5585)
+
+
+Started GET "/" for ::1 at 2022-08-17 10:47:23 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 3291)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 6086)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 6923)
+
+
+Started GET "/repository_events/search?owner=&repository=&event_type=&commit=Get+Events" for ::1 at 2022-08-17 10:47:24 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/repository_events/search"):
+  
+Started GET "/" for ::1 at 2022-08-17 10:47:24 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 2935)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 5325)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 5611)
+
+
+Started GET "/" for ::1 at 2022-08-17 10:48:29 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 3919)
+  Rendered layout layouts/application.html.erb (Duration: 93.4ms | Allocations: 39054)
+Completed 200 OK in 102ms (Views: 96.1ms | ActiveRecord: 0.0ms | Allocations: 42461)
+
+
+Started GET "/resposiory_events/search?owner=&repository=&event_type=&commit=Get+Events" for ::1 at 2022-08-17 10:48:30 -0400
+  
+ActionController::RoutingError (uninitialized constant ResposioryEventsController
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+Did you mean?  RepositoryEventsController
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+  
+Started GET "/" for ::1 at 2022-08-17 10:48:31 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 2971)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 5495)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 5806)
+
+
+Started GET "/resposiory_events/search?owner=&repository=&event_type=&commit=Get+Events" for ::1 at 2022-08-17 10:49:35 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/resposiory_events/search"):
+  
+Started GET "/" for ::1 at 2022-08-17 10:49:36 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 3521)
+  Rendered layout layouts/application.html.erb (Duration: 74.0ms | Allocations: 38339)
+Completed 200 OK in 80ms (Views: 75.4ms | ActiveRecord: 0.0ms | Allocations: 40592)
+
+
+Started GET "/repository_events/search?owner=&repository=&event_type=&commit=Get+Events" for ::1 at 2022-08-17 10:49:48 -0400
+Processing by RepositoryEventsController#search as HTML
+  Parameters: {"owner"=>"", "repository"=>"", "event_type"=>"", "commit"=>"Get Events"}
+[31mUnpermitted parameters: :repository, :event_type, :commit. Context: { controller: RepositoryEventsController, action: search, request: #<ActionDispatch::Request:0x00007fbfd402a008>, params: {"owner"=>"", "repository"=>"", "event_type"=>"", "commit"=>"Get Events", "controller"=>"repository_events", "action"=>"search"} }[0m
+Completed 406 Not Acceptable in 130394ms (ActiveRecord: 0.0ms | Allocations: 23674)
+
+
+  
+ActionController::MissingExactTemplate (RepositoryEventsController#search is missing a template for request formats: text/html):
+  
+actionpack (7.0.3.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.3.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.3.1) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-08-17 10:52:03 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 3918)
+  Rendered layout layouts/application.html.erb (Duration: 63.7ms | Allocations: 39162)
+Completed 200 OK in 70ms (Views: 65.7ms | ActiveRecord: 0.0ms | Allocations: 42569)
+
+
+Started GET "/repository_events/search?owner=&repository=&event_type=&commit=Get+Events" for ::1 at 2022-08-17 10:52:07 -0400
+Processing by RepositoryEventsController#search as HTML
+  Parameters: {"owner"=>"", "repository"=>"", "event_type"=>"", "commit"=>"Get Events"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 498)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 1)):
+  
+app/controllers/repository_events_controller.rb:10:in `search_params'
+app/controllers/repository_events_controller.rb:6:in `search'
+Started GET "/" for ::1 at 2022-08-17 10:52:44 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 2965)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 16968)
+Completed 200 OK in 16ms (Views: 15.7ms | Allocations: 17614)
+
+
+Started GET "/repository_events/search?owner=&repository=&event_type=&commit=Get+Events" for ::1 at 2022-08-17 10:52:46 -0400
+Processing by RepositoryEventsController#search as HTML
+  Parameters: {"owner"=>"", "repository"=>"", "event_type"=>"", "commit"=>"Get Events"}
+[31mUnpermitted parameter: :commit. Context: { controller: RepositoryEventsController, action: search, request: #<ActionDispatch::Request:0x00007fc620510ca0>, params: {"owner"=>"", "repository"=>"", "event_type"=>"", "commit"=>"Get Events", "controller"=>"repository_events", "action"=>"search"} }[0m
+Completed 406 Not Acceptable in 1ms (Allocations: 910)
+
+
+  
+ActionController::MissingExactTemplate (RepositoryEventsController#search is missing a template for request formats: text/html):
+  
+actionpack (7.0.3.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.3.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.3.1) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-08-17 10:52:46 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 2935)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 5301)
+Completed 200 OK in 5ms (Views: 4.8ms | Allocations: 5577)
+
+
+Started GET "/repository_events/search?owner=&repository=&event_type=&commit=Get+Events" for ::1 at 2022-08-17 10:53:01 -0400
+Processing by RepositoryEventsController#search as HTML
+  Parameters: {"owner"=>"", "repository"=>"", "event_type"=>"", "commit"=>"Get Events"}
+[31mUnpermitted parameter: :commit. Context: { controller: RepositoryEventsController, action: search, request: #<ActionDispatch::Request:0x00007fc5eab35f08>, params: {"owner"=>"", "repository"=>"", "event_type"=>"", "commit"=>"Get Events", "controller"=>"repository_events", "action"=>"search"} }[0m
+Completed 406 Not Acceptable in 1ms (Allocations: 749)
+
+
+  
+ActionController::MissingExactTemplate (RepositoryEventsController#search is missing a template for request formats: text/html):
+  
+actionpack (7.0.3.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.3.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.3.1) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-08-17 10:53:01 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 3012)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 16982)
+Completed 200 OK in 16ms (Views: 15.6ms | Allocations: 17566)
+
+
+Started GET "/repository_events/search?owner=&repository=&event_type=&commit=Get+Events" for ::1 at 2022-08-17 10:53:17 -0400
+Processing by RepositoryEventsController#search as HTML
+  Parameters: {"owner"=>"", "repository"=>"", "event_type"=>"", "commit"=>"Get Events"}
+[31mUnpermitted parameter: :commit. Context: { controller: RepositoryEventsController, action: search, request: #<ActionDispatch::Request:0x00007fc6204ffb80>, params: {"owner"=>"", "repository"=>"", "event_type"=>"", "commit"=>"Get Events", "controller"=>"repository_events", "action"=>"search"} }[0m
+[31mUnpermitted parameter: :commit. Context: { controller: RepositoryEventsController, action: search, request: #<ActionDispatch::Request:0x00007fc6204ffb80>, params: {"owner"=>"", "repository"=>"", "event_type"=>"", "commit"=>"Get Events", "controller"=>"repository_events", "action"=>"search"} }[0m
+Completed 406 Not Acceptable in 23560ms (Allocations: 13424)
+
+
+  
+ActionController::MissingExactTemplate (RepositoryEventsController#search is missing a template for request formats: text/html):
+  
+actionpack (7.0.3.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.3.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.3.1) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-08-17 10:53:40 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 3012)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 16988)
+Completed 200 OK in 17ms (Views: 16.5ms | Allocations: 17577)
+
+
+Started GET "/repository_events/search?owner=own&repository=repo&event_type=type&commit=Get+Events" for ::1 at 2022-08-17 10:53:48 -0400
+Processing by RepositoryEventsController#search as HTML
+  Parameters: {"owner"=>"own", "repository"=>"repo", "event_type"=>"type", "commit"=>"Get Events"}
+[31mUnpermitted parameter: :commit. Context: { controller: RepositoryEventsController, action: search, request: #<ActionDispatch::Request:0x00007fc621e46f08>, params: {"owner"=>"own", "repository"=>"repo", "event_type"=>"type", "commit"=>"Get Events", "controller"=>"repository_events", "action"=>"search"} }[0m
+[31mUnpermitted parameter: :commit. Context: { controller: RepositoryEventsController, action: search, request: #<ActionDispatch::Request:0x00007fc621e46f08>, params: {"owner"=>"own", "repository"=>"repo", "event_type"=>"type", "commit"=>"Get Events", "controller"=>"repository_events", "action"=>"search"} }[0m
+[31mUnpermitted parameter: :commit. Context: { controller: RepositoryEventsController, action: search, request: #<ActionDispatch::Request:0x00007fc621e46f08>, params: {"owner"=>"own", "repository"=>"repo", "event_type"=>"type", "commit"=>"Get Events", "controller"=>"repository_events", "action"=>"search"} }[0m
+Completed 406 Not Acceptable in 388046ms (Allocations: 11982)
+
+
+  
+ActionController::MissingExactTemplate (RepositoryEventsController#search is missing a template for request formats: text/html):
+  
+actionpack (7.0.3.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.3.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.3.1) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-08-17 11:00:16 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 2965)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 16941)
+Completed 200 OK in 15ms (Views: 14.7ms | Allocations: 17583)
+
+
+Started GET "/" for ::1 at 2022-08-17 11:00:26 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 3918)
+  Rendered layout layouts/application.html.erb (Duration: 65.5ms | Allocations: 39044)
+Completed 200 OK in 77ms (Views: 68.9ms | ActiveRecord: 0.0ms | Allocations: 42451)
+
+
+Started GET "/repository_events/search?owner=asdf&repository=fdasf&event_type=asdf&commit=Get+Events" for ::1 at 2022-08-17 11:00:30 -0400
+Processing by RepositoryEventsController#search as HTML
+  Parameters: {"owner"=>"asdf", "repository"=>"fdasf", "event_type"=>"asdf", "commit"=>"Get Events"}
+[31mUnpermitted parameter: :commit. Context: { controller: RepositoryEventsController, action: search, request: #<ActionDispatch::Request:0x00007f7e5c274368>, params: {"owner"=>"asdf", "repository"=>"fdasf", "event_type"=>"asdf", "commit"=>"Get Events", "controller"=>"repository_events", "action"=>"search"} }[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1817)
+
+
+  
+NoMethodError (undefined method `get' for GithubApiClient:Module
+
+    github_response = GithubApiClient.get(repo_details[:owner], repo_details[:repository])
+                                     ^^^^
+Did you mean?  gem):
+  
+app/controllers/repository_events_controller.rb:7:in `search'
+Started PUT "/__web_console/repl_sessions/970d2b36a97ca914f9a9ce489b9f3706" for ::1 at 2022-08-17 11:01:24 -0400
+Started PUT "/__web_console/repl_sessions/970d2b36a97ca914f9a9ce489b9f3706" for ::1 at 2022-08-17 11:01:25 -0400
+Started PUT "/__web_console/repl_sessions/970d2b36a97ca914f9a9ce489b9f3706" for ::1 at 2022-08-17 11:01:33 -0400
+Started PUT "/__web_console/repl_sessions/970d2b36a97ca914f9a9ce489b9f3706" for ::1 at 2022-08-17 11:01:33 -0400
+Started PUT "/__web_console/repl_sessions/970d2b36a97ca914f9a9ce489b9f3706" for ::1 at 2022-08-17 11:01:39 -0400
+Started PUT "/__web_console/repl_sessions/970d2b36a97ca914f9a9ce489b9f3706" for ::1 at 2022-08-17 11:01:42 -0400
+Started PUT "/__web_console/repl_sessions/970d2b36a97ca914f9a9ce489b9f3706" for ::1 at 2022-08-17 11:01:51 -0400
+Started PUT "/__web_console/repl_sessions/970d2b36a97ca914f9a9ce489b9f3706" for ::1 at 2022-08-17 11:01:52 -0400
+Started PUT "/__web_console/repl_sessions/970d2b36a97ca914f9a9ce489b9f3706" for ::1 at 2022-08-17 11:01:54 -0400
+Started PUT "/__web_console/repl_sessions/970d2b36a97ca914f9a9ce489b9f3706" for ::1 at 2022-08-17 11:03:04 -0400
+Started PUT "/__web_console/repl_sessions/970d2b36a97ca914f9a9ce489b9f3706" for ::1 at 2022-08-17 11:03:06 -0400
+Started PUT "/__web_console/repl_sessions/970d2b36a97ca914f9a9ce489b9f3706" for ::1 at 2022-08-17 11:03:07 -0400
+Started PUT "/__web_console/repl_sessions/970d2b36a97ca914f9a9ce489b9f3706" for ::1 at 2022-08-17 11:03:11 -0400
+Started PUT "/__web_console/repl_sessions/970d2b36a97ca914f9a9ce489b9f3706" for ::1 at 2022-08-17 11:03:13 -0400
+Started PUT "/__web_console/repl_sessions/970d2b36a97ca914f9a9ce489b9f3706" for ::1 at 2022-08-17 11:03:17 -0400
+Started PUT "/__web_console/repl_sessions/970d2b36a97ca914f9a9ce489b9f3706" for ::1 at 2022-08-17 11:03:23 -0400
+Started PUT "/__web_console/repl_sessions/970d2b36a97ca914f9a9ce489b9f3706" for ::1 at 2022-08-17 11:03:28 -0400
+Started GET "/" for ::1 at 2022-08-17 11:03:36 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 2965)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 16976)
+Completed 200 OK in 22ms (Views: 21.0ms | Allocations: 17621)
+
+
+Started GET "/repository_events/search?owner=asdf&repository=asdf&event_type=asdf&commit=Get+Events" for ::1 at 2022-08-17 11:03:41 -0400
+Processing by RepositoryEventsController#search as HTML
+  Parameters: {"owner"=>"asdf", "repository"=>"asdf", "event_type"=>"asdf", "commit"=>"Get Events"}
+[31mUnpermitted parameter: :commit. Context: { controller: RepositoryEventsController, action: search, request: #<ActionDispatch::Request:0x00007f7e5fda2bb0>, params: {"owner"=>"asdf", "repository"=>"asdf", "event_type"=>"asdf", "commit"=>"Get Events", "controller"=>"repository_events", "action"=>"search"} }[0m
+[31mUnpermitted parameter: :commit. Context: { controller: RepositoryEventsController, action: search, request: #<ActionDispatch::Request:0x00007f7e5fda2bb0>, params: {"owner"=>"asdf", "repository"=>"asdf", "event_type"=>"asdf", "commit"=>"Get Events", "controller"=>"repository_events", "action"=>"search"} }[0m
+Completed 500 Internal Server Error in 405990ms (Allocations: 185705)
+
+
+  
+NoMethodError (undefined method `GithubApiClient' for #<ActionView::Base:0x0000000000e9c0>
+
+    github_response = helpers.GithubApiClient.get(repo_details[:owner], repo_details[:repository])
+                             ^^^^^^^^^^^^^^^^):
+  
+app/controllers/repository_events_controller.rb:8:in `search'
+Started GET "/" for ::1 at 2022-08-17 11:12:57 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 3918)
+  Rendered layout layouts/application.html.erb (Duration: 53.2ms | Allocations: 39019)
+Completed 200 OK in 60ms (Views: 55.3ms | ActiveRecord: 0.0ms | Allocations: 42426)
+
+
+Started GET "/" for ::1 at 2022-08-17 11:36:02 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 3918)
+  Rendered layout layouts/application.html.erb (Duration: 65.6ms | Allocations: 38870)
+Completed 200 OK in 77ms (Views: 68.4ms | ActiveRecord: 0.0ms | Allocations: 42288)
+
+
+Started GET "/repository_events/search?owner=asdf&repository=asdf&event_type=asdf&commit=Get+Events" for ::1 at 2022-08-17 11:36:07 -0400
+Processing by RepositoryEventsController#search as HTML
+  Parameters: {"owner"=>"asdf", "repository"=>"asdf", "event_type"=>"asdf", "commit"=>"Get Events"}
+[31mUnpermitted parameter: :commit. Context: { controller: RepositoryEventsController, action: search, request: #<ActionDispatch::Request:0x00007f3f991223b8>, params: {"owner"=>"asdf", "repository"=>"asdf", "event_type"=>"asdf", "commit"=>"Get Events", "controller"=>"repository_events", "action"=>"search"} }[0m
+Completed 406 Not Acceptable in 349ms (ActiveRecord: 0.0ms | Allocations: 8945)
+
+
+  
+ActionController::MissingExactTemplate (RepositoryEventsController#search is missing a template for request formats: text/html):
+  
+actionpack (7.0.3.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.3.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.3.1) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-08-17 11:36:08 -0400
+Processing by RepositoryEventsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering repository_events/index.html.erb within layouts/application
+  Rendered repository_events/index.html.erb within layouts/application (Duration: 22.4ms | Allocations: 2971)
+  Rendered layout layouts/application.html.erb (Duration: 26.5ms | Allocations: 5508)
+Completed 200 OK in 27ms (Views: 27.1ms | ActiveRecord: 0.0ms | Allocations: 5814)
+
+
