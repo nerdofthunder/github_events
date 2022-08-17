@@ -1,0 +1,9 @@
+<%= form_with url: "/repository_events/search", method: :get do |form|%>
+  <%= form.label :owner, "Owner"%>
+  <%= form.text_field :owner%>
+  <%= form.label :repository, "Repository"%>
+  <%= form.text_field :repository%>
+  <%= form.label :event_type, "Event Type"%>
+  <%= form.text_field :event_type%>
+  <%= form.submit "Get Events"%>
+<%end%>

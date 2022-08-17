@@ -1,0 +1,19 @@
+<%= render "search_form"%>
+
+<%if @filtered_data%>
+  <table>
+    <tr>
+      <th>Event Type</th>
+      <th>Actor Information</th>
+      <th>Timestamp</th>
+    </tr>
+
+    <% @filtered_data.each do |event| %>
+      <tr>
+        <td><%=event["type"]%></td>
+        <td><%=event["actor"]["display_login"]%></td>
+        <td><%=event["created_at"]%></td>
+      </tr>
+    <%end%>
+  </table>
+<%end%>
