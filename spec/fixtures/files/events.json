@@ -1,0 +1,188 @@
+[
+   {
+      "id": "1",
+      "type": "IssuesEvent",
+      "actor": {
+         "id": 51289,
+         "login": "Tietew",
+         "display_login": "Tietew",
+         "gravatar_id": "",
+         "url": "https://api.github.com/users/Tietew",
+         "avatar_url": "https://avatars.githubusercontent.com/u/51289?"
+      },
+      "repo": {
+         "id": 136781582,
+         "name": "rubocop/rubocop-rails",
+         "url": "https://api.github.com/repos/rubocop/rubocop-rails"
+      },
+      "payload": {
+         "action": "opened",
+         "issue": {
+            "url": "https://api.github.com/repos/rubocop/rubocop-rails/issues/755",
+            "repository_url": "https://api.github.com/repos/rubocop/rubocop-rails",
+            "labels_url": "https://api.github.com/repos/rubocop/rubocop-rails/issues/755/labels{/name}",
+            "comments_url": "https://api.github.com/repos/rubocop/rubocop-rails/issues/755/comments",
+            "events_url": "https://api.github.com/repos/rubocop/rubocop-rails/issues/755/events",
+            "html_url": "https://github.com/rubocop/rubocop-rails/issues/755",
+            "id": 1341503210,
+            "node_id": "I_kwDOCCcfDs5P9bbq",
+            "number": 755,
+            "title": "Rails/Blank false positive (or incorrect suggestion)",
+            "user": {
+               "login": "Tietew",
+               "id": 51289,
+               "node_id": "MDQ6VXNlcjUxMjg5",
+               "avatar_url": "https://avatars.githubusercontent.com/u/51289?v=4",
+               "gravatar_id": "",
+               "url": "https://api.github.com/users/Tietew",
+               "html_url": "https://github.com/Tietew",
+               "followers_url": "https://api.github.com/users/Tietew/followers",
+               "following_url": "https://api.github.com/users/Tietew/following{/other_user}",
+               "gists_url": "https://api.github.com/users/Tietew/gists{/gist_id}",
+               "starred_url": "https://api.github.com/users/Tietew/starred{/owner}{/repo}",
+               "subscriptions_url": "https://api.github.com/users/Tietew/subscriptions",
+               "organizations_url": "https://api.github.com/users/Tietew/orgs",
+               "repos_url": "https://api.github.com/users/Tietew/repos",
+               "events_url": "https://api.github.com/users/Tietew/events{/privacy}",
+               "received_events_url": "https://api.github.com/users/Tietew/received_events",
+               "type": "User",
+               "site_admin": false
+            },
+            "labels": [
+               
+            ],
+            "state": "open",
+            "locked": false,
+            "assignee": null,
+            "assignees": [
+               
+            ],
+            "milestone": null,
+            "comments": 0,
+            "created_at": "2022-08-17T09:58:57Z",
+            "updated_at": "2022-08-17T09:58:57Z",
+            "closed_at": null,
+            "author_association": "CONTRIBUTOR",
+            "active_lock_reason": null,
+            "body": "When both `&.` (safe navigation operator) and `blank?` are used:\r\n\r\n``` ruby\r\ndef foo\r\n  awesome_stuff unless @cart&.items.present?\r\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Use `if @cart&.items.blank?` instead of `unless @cart&.items.present?`.\r\nend\r\n```\r\n\r\nSuggested `if @cart&.items.blank?` is not equivalent to the original code.\r\n\r\n`Rails/Blank` should not be detected - or - suggested code should be `if @cart.nil? || @cart.items.blank?`.\r\n\r\n## RuboCop version\r\n\r\n```\r\n$ [bundle exec] rubocop -V\r\n1.35.0 (using Parser 3.1.2.0, rubocop-ast 1.19.1, running on ruby 3.1.2 x86_64-linux)\r\n  - rubocop-rails 2.15.2\r\n```\r\n",
+            "reactions": {
+               "url": "https://api.github.com/repos/rubocop/rubocop-rails/issues/755/reactions",
+               "total_count": 0,
+               "+1": 0,
+               "-1": 0,
+               "laugh": 0,
+               "hooray": 0,
+               "confused": 0,
+               "heart": 0,
+               "rocket": 0,
+               "eyes": 0
+            },
+            "timeline_url": "https://api.github.com/repos/rubocop/rubocop-rails/issues/755/timeline",
+            "performed_via_github_app": null,
+            "state_reason": null
+         }
+      },
+      "public": true,
+      "created_at": "2022-08-17T09:58:57Z",
+      "org": {
+         "id": 10871348,
+         "login": "rubocop",
+         "gravatar_id": "",
+         "url": "https://api.github.com/orgs/rubocop",
+         "avatar_url": "https://avatars.githubusercontent.com/u/10871348?"
+      }
+   },
+   {
+    "id": "2",
+    "type": "PushEvent",
+    "actor": {
+       "id": 51289,
+       "login": "Tietew",
+       "display_login": "Tietew",
+       "gravatar_id": "",
+       "url": "https://api.github.com/users/Tietew",
+       "avatar_url": "https://avatars.githubusercontent.com/u/51289?"
+    },
+    "repo": {
+       "id": 136781582,
+       "name": "rubocop/rubocop-rails",
+       "url": "https://api.github.com/repos/rubocop/rubocop-rails"
+    },
+    "payload": {
+       "action": "opened",
+       "issue": {
+          "url": "https://api.github.com/repos/rubocop/rubocop-rails/issues/755",
+          "repository_url": "https://api.github.com/repos/rubocop/rubocop-rails",
+          "labels_url": "https://api.github.com/repos/rubocop/rubocop-rails/issues/755/labels{/name}",
+          "comments_url": "https://api.github.com/repos/rubocop/rubocop-rails/issues/755/comments",
+          "events_url": "https://api.github.com/repos/rubocop/rubocop-rails/issues/755/events",
+          "html_url": "https://github.com/rubocop/rubocop-rails/issues/755",
+          "id": 1341503210,
+          "node_id": "I_kwDOCCcfDs5P9bbq",
+          "number": 755,
+          "title": "Rails/Blank false positive (or incorrect suggestion)",
+          "user": {
+             "login": "Tietew",
+             "id": 51289,
+             "node_id": "MDQ6VXNlcjUxMjg5",
+             "avatar_url": "https://avatars.githubusercontent.com/u/51289?v=4",
+             "gravatar_id": "",
+             "url": "https://api.github.com/users/Tietew",
+             "html_url": "https://github.com/Tietew",
+             "followers_url": "https://api.github.com/users/Tietew/followers",
+             "following_url": "https://api.github.com/users/Tietew/following{/other_user}",
+             "gists_url": "https://api.github.com/users/Tietew/gists{/gist_id}",
+             "starred_url": "https://api.github.com/users/Tietew/starred{/owner}{/repo}",
+             "subscriptions_url": "https://api.github.com/users/Tietew/subscriptions",
+             "organizations_url": "https://api.github.com/users/Tietew/orgs",
+             "repos_url": "https://api.github.com/users/Tietew/repos",
+             "events_url": "https://api.github.com/users/Tietew/events{/privacy}",
+             "received_events_url": "https://api.github.com/users/Tietew/received_events",
+             "type": "User",
+             "site_admin": false
+          },
+          "labels": [
+             
+          ],
+          "state": "open",
+          "locked": false,
+          "assignee": null,
+          "assignees": [
+             
+          ],
+          "milestone": null,
+          "comments": 0,
+          "created_at": "2022-08-17T09:58:57Z",
+          "updated_at": "2022-08-17T09:58:57Z",
+          "closed_at": null,
+          "author_association": "CONTRIBUTOR",
+          "active_lock_reason": null,
+          "body": "When both `&.` (safe navigation operator) and `blank?` are used:\r\n\r\n``` ruby\r\ndef foo\r\n  awesome_stuff unless @cart&.items.present?\r\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Use `if @cart&.items.blank?` instead of `unless @cart&.items.present?`.\r\nend\r\n```\r\n\r\nSuggested `if @cart&.items.blank?` is not equivalent to the original code.\r\n\r\n`Rails/Blank` should not be detected - or - suggested code should be `if @cart.nil? || @cart.items.blank?`.\r\n\r\n## RuboCop version\r\n\r\n```\r\n$ [bundle exec] rubocop -V\r\n1.35.0 (using Parser 3.1.2.0, rubocop-ast 1.19.1, running on ruby 3.1.2 x86_64-linux)\r\n  - rubocop-rails 2.15.2\r\n```\r\n",
+          "reactions": {
+             "url": "https://api.github.com/repos/rubocop/rubocop-rails/issues/755/reactions",
+             "total_count": 0,
+             "+1": 0,
+             "-1": 0,
+             "laugh": 0,
+             "hooray": 0,
+             "confused": 0,
+             "heart": 0,
+             "rocket": 0,
+             "eyes": 0
+          },
+          "timeline_url": "https://api.github.com/repos/rubocop/rubocop-rails/issues/755/timeline",
+          "performed_via_github_app": null,
+          "state_reason": null
+       }
+    },
+    "public": true,
+    "created_at": "2022-08-17T09:58:57Z",
+    "org": {
+       "id": 10871348,
+       "login": "rubocop",
+       "gravatar_id": "",
+       "url": "https://api.github.com/orgs/rubocop",
+       "avatar_url": "https://avatars.githubusercontent.com/u/10871348?"
+    }
+ }
+]

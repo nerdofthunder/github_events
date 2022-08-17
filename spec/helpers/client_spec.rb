@@ -9,7 +9,7 @@ describe GithubApiClient do
       # Tests should not be dependent on external services.
       # Considder using VCR, or mocks to decouple.
       response = helper.get('rubocop', 'rubocop-rails', 1)
-      
+
       expect(response[0]['id']).not_to be_empty
     end
   end
